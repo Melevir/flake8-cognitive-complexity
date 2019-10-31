@@ -1,4 +1,4 @@
-# flake8-expression-complexity
+# flake8-cognitive-complexity
 
 
 [![Build Status](https://travis-ci.org/Melevir/flake8-cognitive-complexity.svg?branch=master)](https://travis-ci.org/Melevir/flake8-cognitive-complexity)
