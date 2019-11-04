@@ -5,6 +5,7 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/579738d149e489c631a6/maintainability)](https://codeclimate.com/github/Melevir/flake8-cognitive-complexity/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/579738d149e489c631a6/test_coverage)](https://codeclimate.com/github/Melevir/flake8-cognitive-complexity/test_coverage)
 [![PyPI version](https://badge.fury.io/py/flake8-expression-complexity.svg)](https://badge.fury.io/py/flake8-expression-complexity)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/flake8-cognitive-complexity)
 
 An extension for flake8 that validates cognitive functions complexity.
 
