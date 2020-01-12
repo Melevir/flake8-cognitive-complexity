@@ -6,7 +6,7 @@ from flake8_cognitive_complexity.checker import CognitiveComplexityChecker
 
 def run_validator_for_test_file(
     filename: str,
-    max_cognitive_compexity: int = None,
+    max_cognitive_complexity: int = None,
     ignore_django_orm_queries: bool = True,
 ):
     test_file_path = os.path.join(
@@ -18,7 +18,7 @@ def run_validator_for_test_file(
         raw_content = file_handler.read()
     tree = ast.parse(raw_content)
     checker = CognitiveComplexityChecker(tree=tree, filename=filename)
-    if max_cognitive_compexity:
-        checker.max_cognitive_compexity = max_cognitive_compexity
+    if max_cognitive_complexity:
+        checker.max_cognitive_complexity = max_cognitive_complexity
 
     return list(checker.run())
