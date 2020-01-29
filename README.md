@@ -15,7 +15,7 @@ and currently used by SonarSource, CodeClimate and others.
 You can find more readings about cognitive complexity in
 [cognitive-complexity readme file](https://github.com/Melevir/cognitive_complexity/blob/master/README.md#what-is-cognitive-complexity).
 
-
+Default complexity is 7, can be configured via `--max-cognitive-complexity` option.
 
 ## Installation
 
