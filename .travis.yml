@@ -3,6 +3,7 @@ python:
   - "3.6"
   - "3.7"
 install:
+  - gem install mdl
   - pip install -r requirements_dev.txt
   - pip install -e .
 before_script:

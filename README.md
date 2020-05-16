@@ -1,6 +1,5 @@
 # flake8-cognitive-complexity
 
-
 [![Build Status](https://travis-ci.org/Melevir/flake8-cognitive-complexity.svg?branch=master)](https://travis-ci.org/Melevir/flake8-cognitive-complexity)
 [![Maintainability](https://api.codeclimate.com/v1/badges/579738d149e489c631a6/maintainability)](https://codeclimate.com/github/Melevir/flake8-cognitive-complexity/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/579738d149e489c631a6/test_coverage)](https://codeclimate.com/github/Melevir/flake8-cognitive-complexity/test_coverage)
@@ -19,8 +18,9 @@ Default complexity is 7, can be configured via `--max-cognitive-complexity` opti
 
 ## Installation
 
-    pip install flake8-cognitive-complexity
-
+```terminal
+pip install flake8-cognitive-complexity
+```
 
 ## Example
 
@@ -31,6 +31,7 @@ def f(a, b):
             if b:
                 return 1
 ```
+
 Usage:
 
 ```terminal
@@ -39,7 +40,6 @@ text.py:1:5: CCR001 Cognitive complexity is too high (6 > 3)
 ```
 
 Tested on Python 3.7.x and flake8 3.7.8.
-
 
 ## Error codes
 
